@@ -20,7 +20,7 @@ export default function TypeWriter({ appendClass, prefix }) {
     if (appendClass) className += " " + appendClass;
 
     // Typewriter effect base class
-    const typeWriterClass = " text-[#e74c3c] font-semibold "
+    const typeWriterClass = " text-[#eb3b5a] font-semibold "
         + "animate-cursor overflow-hidden whitespace-nowrap transition-[width] ease-in-out duration-1000 mr-auto";
 
     // State of current hat index
@@ -65,7 +65,7 @@ export default function TypeWriter({ appendClass, prefix }) {
     return (
         <div className={className}>
             <div className="text-4xl w-full text-[#343a40]  lg:text-6xl mt-6  mx-auto">
-                Muhammad <span className="text-[#e74c3c] font-bold">Adil</span>
+                Muhammad <span className="text-[#eb3b5a] font-bold">Adil</span>
             </div>
             <div className="flex gap-2 w-fit md:mx-0 mx-auto text-2xl lg:text-3xl ">
                 <div className="shrink-0 text-[#343a40] capitalize whitespace-nowrap">

@@ -15,32 +15,32 @@ export default function Navbar() {
     {
       id: 1,
       name: "Home",
-      link: "#home",
+      link: "/",
     },
     {
       id: 2,
       name: "About",
-      link: "#about",
+      link: "/about",
     },
     {
       id: 3,
       name: "Resume",
-      link: "#resume",
+      link: "/resume",
     },
     {
       id: 4,
       name: "Porfolio",
-      link: "#portfolio",
+      link: "/portfolio",
     },
     {
       id: 5,
       name: "Contact",
-      link: "#contact",
+      link: "/contact",
     },
   ];
 
   return (
-    <header className="bg-white  w-full py-5 px-6 fixed z-50 top-0  font-ubuntu ">
+    <header className="bg-white shadow-sm w-full py-5 px-6 fixed z-50 top-0  font-ubuntu ">
       <div
         className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] mx-auto flex 
       justify-between items-center flex-wrap"
