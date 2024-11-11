@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import { NavLink as Link } from "react-router-dom";
 import { IoIosMenu } from "react-icons/io";
 import { BsX } from "react-icons/bs";
 import Logo from "../../assets/logo-1.png";
@@ -17,23 +17,19 @@ export default function Navbar() {
       name: "Home",
       link: "/",
     },
+   
     {
       id: 2,
-      name: "About",
-      link: "/about",
-    },
-    {
-      id: 3,
       name: "Resume",
       link: "/resume",
     },
     {
-      id: 4,
+      id: 3,
       name: "Porfolio",
       link: "/portfolio",
     },
     {
-      id: 5,
+      id: 4,
       name: "Contact",
       link: "/contact",
     },
@@ -75,7 +71,7 @@ export default function Navbar() {
             <Link
               key={item.id}
               className={`text-base font-medium tracking-wider px-5 py-2  ${
-              location.hash === item.link ? "text-[#eb3b5a]" : "text-[#343a40]"
+              location.pathname === item.link ? "text-[#eb3b5a]" : "text-[#343a40]"
             }   hover:text-[#eb3b5a] font-medium `}
               to={item.link}
               onClick={() => setShowMenu(!showMenu)}
@@ -90,7 +86,7 @@ export default function Navbar() {
             <Link
             key={item.id}
             className={`text-base px-3 py-2 font-medium  ${
-              location.hash === item.link ? "text-[#eb3b5a] font-medium" : "text-[#343a40]"
+              location.pathname === item.link ? "text-[#eb3b5a] font-medium" : "text-[#343a40]"
             } hover:text-[#eb3b5a]`}
             to={item.link}
             onClick={() => setShowMenu(!showMenu)}

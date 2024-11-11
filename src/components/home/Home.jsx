@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Profile from "../../assets/profile.png";
 import TypeWriter from "./Typewriter";
 import ProfileButtons from "./ProfileButtons";
+import About from "./About";
 
 const Home = () => {
 
@@ -27,6 +28,8 @@ const Home = () => {
             <img src={Profile} className="lg:w-[80%] md:w-[70%] w-[60%] lg:mx-0 mx-auto  md:mb-8 mb-0" alt="profile image" />
           </div>
         </section>
+        <About />
+
       </div>
     </div>
   );
