@@ -3,6 +3,8 @@ import Profile from "../../assets/profile.png";
 import TypeWriter from "./Typewriter";
 import ProfileButtons from "./ProfileButtons";
 import About from "./About";
+import Services from "./Services";
+import Funfacts from "./Funfacts";
 
 const Home = () => {
 
@@ -29,7 +31,8 @@ const Home = () => {
           </div>
         </section>
         <About />
-
+        <Services />
+<Funfacts />
       </div>
     </div>
   );
