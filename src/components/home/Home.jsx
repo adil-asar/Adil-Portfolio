@@ -13,8 +13,8 @@ const Home = () => {
           <div className="md:pt-0 pt-7 md:text-left text-center md:order-1 order-2 animate__animated  animate__fadeInLeft">
         {/* hot div */}
           <div className="flex items-center  py-2 px-3 md:mx-0 mx-auto  w-fit bg-[#ecf0f1] rounded-full">
-          <div className="text-white bg-[#eb3b5a] text-xs tracking-wide py-[4px] px-3 rounded-full">Hot</div>
-          <span className="text-[#343a40]] text-sm tracking-wide  px-2"> Looking for a Developer !</span>
+          <div className="text-white bg-[#eb3b5a] text-xs tracking-wide py-[3px] px-2 rounded-full">Hot</div>
+          <span className="text-[#343a40] md:text-sm text-xs tracking-wide  px-2"> Looking for a Developer !</span>
           </div>
             {/* Typeriter */}
             <TypeWriter />
