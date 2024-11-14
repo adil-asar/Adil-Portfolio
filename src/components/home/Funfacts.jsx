@@ -35,7 +35,7 @@ const Funfacts = () => {
     
 
   return (
-    <div className="w-full py-8  border-t  border-[#ecf0f1]  ">
+    <div className="w-full py-6      ">
     <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
       Fun Facts
     </h1>
@@ -43,7 +43,7 @@ const Funfacts = () => {
       Awards, Projects, Coffees, Hours
     </div>
 
-    <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 mt-6 gap-5">
+    <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mb-5 grid-cols-1 mt-10 gap-5">
     {
 factsItems.map((fact)=>(
     <div key={fact.id} className=' px-6 py-12 rounded-md  border border-[#ecf0f1] text-center '>

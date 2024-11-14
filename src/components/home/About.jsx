@@ -5,14 +5,14 @@ const About = () => {
 
 
   return (
-    <div className="w-full py-8  border-t  border-[#ecf0f1]  ">
+    <div className="w-full py-6   ">
       <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
         About Me
       </h1>
       <div className="px-2 py-0.5 text-white text-sm w-fit bg-[#eb3b5a] md:mx-0 mx-auto ">
         Developer, Thinker, Creative Doer
       </div>
-      <div className="flex md:flex-row mt-5 flex-col items-center justify-center md:gap-10 gap-5">
+      <div className="flex md:flex-row mt-10 flex-col items-center justify-center md:gap-10 gap-5">
         <div className="lg:w-[75%] md:w-[70%] w-full">
           <p className="md:text-base text-sm">
             I am a  Mern Stack developer, with a strong command of the
