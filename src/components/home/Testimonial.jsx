@@ -8,7 +8,7 @@ const Testimonial = () => {
         Testimonials
       </h1>
       <div className="px-2 py-0.5 text-white text-sm w-fit bg-[#eb3b5a] md:mx-0 mx-auto ">
-        collaborative, quality work, top-notch work
+        collaborative, quality, top-notch work
       </div>
 
       <div className="grid  lg:grid-cols-2 grid-cols-1 mt-20 text-[#343a40]  mb-5  lg:gap-6 gap-12">

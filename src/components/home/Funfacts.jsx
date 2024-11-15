@@ -54,7 +54,7 @@ factsItems.map((fact)=>(
        }
     </div>
     <h2 className='   text-[#eb3b5a] text-lg font-bold mb-1 '>{fact.name}</h2>
-    <p className=' md:text-base text-sm text-[#343a40]'>{fact.Note}</p>
+    <p className=' md:text-base text-sm text-gray-500'>{fact.Note}</p>
   </div>
 ))
     }

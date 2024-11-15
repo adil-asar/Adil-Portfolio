@@ -14,13 +14,13 @@ const About = () => {
       </div>
       <div className="flex md:flex-row mt-10 flex-col items-center justify-center md:gap-10 gap-5">
         <div className="lg:w-[75%] md:w-[70%] w-full">
-          <p className="md:text-base text-sm">
+          <p className="md:text-base text-sm text-gray-500">
             I am a  Mern Stack developer, with a strong command of the
             Frontend technology. I continuously work on  my skillset on
             a daily basis. I love working with a Team, and I also enjoy working
             alone. I deliver efficient, user-focused solutions tailored to project needs.
           </p>
-          <p className="md:text-base text-sm mt-3">
+          <p className="md:text-base text-sm mt-3 text-gray-500">
             With hands-on experience in both front-end and back-end
             technologies, including ReactJS, NextJs, Nodejs, PHP, SQL, and
             MongoDB. I specialize in providing high-performance, user-friendly,
