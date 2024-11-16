@@ -10,8 +10,8 @@ const Education = () => {
       </div>
 
       <div className="flex flex-col gap-6 mt-6">
-      <div className="w-full p-5  flex  flex-col  border-2 border-[#ecf0f1] rounded-md  ">
-      <div className="px-2 py-0.5 text-xs mb-2 text-white md:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
+      <div className="w-full p-5  flex  flex-col sm:text-left text-center border-2 border-[#ecf0f1] rounded-md  ">
+      <div className="px-2 py-0.5 text-xs mb-2 text-white sm:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
           July 2019 - July 2023
         </div>
         <h1 className="text-[#343a40] text-lg  font-semibold">
@@ -22,8 +22,8 @@ const Education = () => {
         Mardan, Pakistan
         </p>
       </div>
-      <div className="w-full p-5  flex  flex-col  border-2 border-[#ecf0f1] rounded-md  ">
-      <div className="px-2 py-0.5 text-xs mb-2 text-white md:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
+      <div className="w-full p-5  flex  flex-col sm:text-left text-center  border-2 border-[#ecf0f1] rounded-md  ">
+      <div className="px-2 py-0.5 text-xs mb-2 text-white sm:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
           Aug 2017 - May 2019
         </div>
         <h1 className="text-[#343a40] text-lg  font-semibold">

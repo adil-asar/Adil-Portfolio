@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
                 <img src={Phone} alt="" />
                  </div>
-              <p className="text-lg font-semibold text-gray-600 mt-4">
+              <p className="text-lg font-semibold text-gray-600 mt-2">
                 +92 301 8139325 </p>
             </div>
             
@@ -42,7 +42,7 @@ const Contact = () => {
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
                 <img src={gml} alt="" />
                  </div>
-              <p className="text-lg font-semibold text-gray-600 mt-4">
+              <p className="text-lg font-semibold text-gray-600 mt-2">
                 madildev9gmail.com </p>
             </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
                 <img src={loc} alt="" />
                  </div>
-              <p className="text-lg font-semibold text-gray-600 mt-4">
+              <p className="text-lg font-semibold text-gray-600 mt-2">
                 Islamabad, Pakistan </p>
             </div>
          
@@ -66,7 +66,7 @@ const Contact = () => {
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
                 <img src={lnkd} alt="" />
                  </div>
-              <p className="text-lg font-semibold text-gray-600 mt-4">
+              <p className="text-lg font-semibold text-gray-600 mt-2">
                 Linkedin  </p>
             </a>
 
@@ -74,7 +74,7 @@ const Contact = () => {
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
                 <img src={insta} alt="" />
                  </div>
-              <p className="text-lg font-semibold text-gray-600 mt-4">
+              <p className="text-lg font-semibold text-gray-600 mt-2">
                 Instagram </p>
             </a>
             
