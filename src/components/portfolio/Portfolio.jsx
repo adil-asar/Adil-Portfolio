@@ -75,7 +75,7 @@ const Portfolio = () => {
   
 
   return (
-    <div id="home" className="  px-6 py-10 bg-white mt-20  font-ubuntu  w-full ">
+    <div className="  px-6 py-10 bg-white mt-20  font-ubuntu  w-full ">
     <div className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] mx-auto ">
     <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
     Portfolio
@@ -92,7 +92,7 @@ My Projects Showcase
       href={project.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="relative shadow overflow-hidden shrink-0 group border-2 border-[#ecf0f1]"
+      className="relative shadow overflow-hidden shrink-0 group border-2 rounded-md border-[#ecf0f1]"
     >
       <img
         src={project.image} // Assuming you have an image path stored in each project object
