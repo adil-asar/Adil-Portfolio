@@ -5,7 +5,7 @@ import Education from "./Education";
 
 const Resume = () => {
   return (
-    <div id="home" className="  px-6 pt-10 bg-white mt-20  font-ubuntu  w-full ">
+    <div id="resume" className="  px-6 mt-28 bg-white   font-ubuntu  w-full ">
       <div className=" md:max-w-[800px] sm:max-w-[700px] mx-auto ">
         <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
           Resume

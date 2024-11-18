@@ -9,7 +9,7 @@ import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
-    <div id="home" className="  p-6 bg-white mt-20 font-ubuntu    w-full ">
+    <div id="home" className=" px-6   font-ubuntu pt-28   w-full ">
       <div className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] mx-auto ">
         <section className="grid md:grid-cols-2 grid-cols-1 justify-center items-center md:gap-5 gap-0">
           <div className="md:pt-0 pt-7 md:text-left text-center md:order-1 order-2 animate__animated  animate__fadeInLeft">

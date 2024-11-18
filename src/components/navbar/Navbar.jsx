@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import { NavLink as Link } from "react-router-dom";
+import {HashLink as Link} from 'react-router-hash-link'
 import { IoIosMenu } from "react-icons/io";
 import { BsX } from "react-icons/bs";
 import Logo from "../../assets/logo-1.png";
@@ -15,33 +15,33 @@ export default function Navbar() {
     {
       id: 1,
       name: "Home",
-      link: "/",
+      link: "#home",
     },
    
     {
       id: 2,
       name: "Resume",
-      link: "/resume",
+      link: "#resume",
     },
     {
       id: 3,
       name: "Porfolio",
-      link: "/portfolio",
+      link: "#portfolio",
     },
     {
       id: 4,
       name: "Contact",
-      link: "/contact",
+      link: "#contact",
     },
   ];
 
   return (
-    <header className="bg-white shadow-sm w-full py-5 px-6 fixed z-50 top-0  font-ubuntu ">
+    <header className="bg-white shadow-sm w-full fixed top-0 z-50  px-6   font-ubuntu ">
       <div
-        className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] mx-auto flex 
+        className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] h-20   mx-auto flex 
       justify-between items-center flex-wrap"
       >
-        <div>
+        <div className="mb-0">
           <Link to="/">
             <img src={Logo} alt="logo" className="w-10 h-10 rounded-full" />
           </Link>
@@ -71,7 +71,7 @@ export default function Navbar() {
             <Link
               key={item.id}
               className={`text-base font-medium tracking-wider px-5 py-2  ${
-              location.pathname === item.link ? "text-[#eb3b5a]" : "text-[#343a40]"
+              location.hash === item.link ? "text-[#eb3b5a]" : "text-[#343a40]"
             }   hover:text-[#eb3b5a] font-medium `}
               to={item.link}
               onClick={() => setShowMenu(!showMenu)}
@@ -86,7 +86,7 @@ export default function Navbar() {
             <Link
             key={item.id}
             className={`text-base px-3 py-2 font-medium  ${
-              location.pathname === item.link ? "text-[#eb3b5a] font-medium" : "text-[#343a40]"
+              location.hash === item.link ? "text-[#eb3b5a] font-medium" : "text-[#343a40]"
             } hover:text-[#eb3b5a]`}
             to={item.link}
             onClick={() => setShowMenu(!showMenu)}
