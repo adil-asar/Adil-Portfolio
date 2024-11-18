@@ -3,15 +3,15 @@ import Profile_1 from "../../assets/imran.jfif"
 import Profile_2 from "../../assets/waleed.jfif" 
 const Testimonial = () => {
   return (
-    <div className="w-full py-6">
-      <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
+    <div className="w-full  mt-14 ">
+      <h1 className="md:text-4xl text-2xl font-semibold md:text-left text-center text-[#eb3b5a]">
         Testimonials
       </h1>
       <div className="px-2 py-0.5 text-white text-sm w-fit bg-[#eb3b5a] md:mx-0 mx-auto ">
         collaborative, quality, top-notch work
       </div>
 
-      <div className="grid  lg:grid-cols-2 grid-cols-1 mt-20 text-[#343a40]  mb-5  lg:gap-6 gap-12">
+      <div className="grid  lg:grid-cols-2 grid-cols-1 mt-20 text-[#343a40]   lg:gap-6 gap-12">
         <div className=" p-5 rounded-md text-center relative  bg-[#ecf0f1]">
           <div className="w-16 h-16 bg-white mx-auto rounded-full flex items-center justify-center -mt-[53px]  ">
             <img

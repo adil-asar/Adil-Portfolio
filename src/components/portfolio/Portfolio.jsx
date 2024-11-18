@@ -75,7 +75,7 @@ const Portfolio = () => {
   
 
   return (
-    <div id="portfolio" className="  px-6 py-10 bg-white mt-20  font-ubuntu  w-full ">
+    <div id="portfolio" className="  px-6  bg-white pt-32  font-ubuntu  w-full ">
     <div className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] mx-auto ">
     <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
     Portfolio
@@ -84,7 +84,7 @@ const Portfolio = () => {
 My Projects Showcase
   </div>
 
-  <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 my-10    gap-8">
+  <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10    gap-8">
 
   {Projects.map((project) => (
     <a

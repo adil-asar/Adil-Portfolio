@@ -9,9 +9,9 @@ const Education = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col gap-6 mt-6">
-      <div className="w-full p-5  flex  flex-col sm:text-left text-center border-2 border-[#ecf0f1] rounded-md  ">
-      <div className="px-2 py-0.5 text-xs mb-2 text-white sm:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-6">
+      <div className="w-full p-5  flex  flex-col md:text-left text-center border-2 border-[#ecf0f1] rounded-md  ">
+      <div className="px-2 py-0.5 text-xs mb-2 text-white md:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
           July 2019 - July 2023
         </div>
         <h1 className="text-[#343a40] text-lg  font-semibold">
@@ -23,14 +23,14 @@ const Education = () => {
         </p>
       </div>
       <div className="w-full p-5  flex  flex-col sm:text-left text-center  border-2 border-[#ecf0f1] rounded-md  ">
-      <div className="px-2 py-0.5 text-xs mb-2 text-white sm:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
+      <div className="px-2 py-0.5 text-xs mb-2 text-white md:mx-0 mx-auto  w-fit bg-[#eb3b5a]   ">
           Aug 2017 - May 2019
         </div>
-        <h1 className="text-[#343a40] text-lg  font-semibold">
+        <h1 className="text-[#343a40] text-lg  font-semibold md:text-left text-center">
         Intermediate ( Pre-Engineering )
         </h1>
-        <p className="text-sm text-[#eb3b5a] font-semibold mb-2"> Malakand Public School and College (MPSC)</p>
-        <p className="text-sm text-gray-500 font-semibold ">
+        <p className="text-sm text-[#eb3b5a] font-semibold mb-2 md:text-left text-center"> Malakand Public School and College (MPSC)</p>
+        <p className="text-sm text-gray-500 font-semibold md:text-left text-center ">
         Dargai, Pakistan
         </p>
       </div>

@@ -36,14 +36,14 @@ const Services = () => {
       ];
     
   return (
-    <div className='w-full py-   '>
-    <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
+    <div className='w-full  mt-14  '>
+    <h1 className="md:text-4xl text-2xl font-semibold md:text-left text-center text-[#eb3b5a]">
     Services
   </h1>
   <div className="px-2 py-0.5 text-white text-sm w-fit bg-[#eb3b5a] md:mx-0 mx-auto ">
         Development, Maintenance, RWD
       </div>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10  mb-5  md:gap-6 gap-5">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10    md:gap-6 gap-5">
     {
         servicesItem.map(service => (
           <div key={service.id} className=' p-4 rounded-md text-center border border-[#ecf0f1]'>

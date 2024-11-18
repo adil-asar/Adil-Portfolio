@@ -7,7 +7,7 @@ import lnkd from "../../assets/lnkd.gif";
 import insta from "../../assets/insta.gif";
 const Contact = () => {
   return (
-    <div id="contact" className="  px-6  bg-white pt-32 pb-8 font-ubuntu  w-full ">
+    <div id="contact" className="  px-6  bg-white pt-32  pb-8 font-ubuntu  w-full ">
       <div className="xl:max-w-[1250px] lg:max-w-[1000px] md:max-w-[850px] sm:max-w-[700px] mx-auto ">
         <h1 className="text-4xl font-semibold md:text-left text-center text-[#eb3b5a]">
           Contact
