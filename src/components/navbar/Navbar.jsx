@@ -62,8 +62,8 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`md:hidden flex flex-col shadow bg-white transition-all duration-500 ease-in-out overflow-hidden absolute  left-0 top-[64px] w-full ${
-            showMenu ? "h-[210px] py-1" : "h-0 overflow-hidden"
+          className={`md:hidden flex flex-col shadow bg-white transition-all duration-500 ease-in-out overflow-hidden absolute  left-0 top-20 w-full ${
+            showMenu ? "h-[180px] py-2" : "h-0 overflow-hidden"
           }   `}
         >
         
