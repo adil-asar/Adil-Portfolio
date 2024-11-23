@@ -42,7 +42,7 @@ const Footer = () => {
           Innovating one project at a time
           </p>
         </div>
-        <div className="w-full flex items-center mt-4 justify-center sm:gap-1 ">
+        <div className="w-full flex items-center mt-4 justify-center gap-3 ">
         {
             socials.map((social) => (
               <a

@@ -36,13 +36,13 @@ const Services = () => {
       ];
     
   return (
-    <div className='w-full  mt-14  '>
-    <h1 className="md:text-4xl text-2xl font-semibold md:text-left text-center text-[#eb3b5a]">
-    Services
-  </h1>
-  <div className="px-2 py-0.5 text-white text-sm w-fit bg-[#eb3b5a] md:mx-0 mx-auto ">
-        Development, Maintenance, RWD
-      </div>
+    <div className='w-full  mt-10  '>
+    <div className=" px-2 w-fit h-8 border-l-4  flex justify-center border-[#eb3b5a] items-center">
+    <h1 className="text-2xl font-semibold md:text-left text-center text-[#343a40]">
+      Services
+    </h1>
+  </div>
+
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10    md:gap-6 gap-5">
     {
         servicesItem.map(service => (

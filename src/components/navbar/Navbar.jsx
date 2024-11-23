@@ -17,19 +17,31 @@ export default function Navbar() {
       name: "Home",
       link: "#home",
     },
-   
+
     {
       id: 2,
+      name: "About",
+      link: "#about",
+    },
+   
+    {
+      id: 3,
       name: "Resume",
       link: "#resume",
     },
     {
-      id: 3,
+      id: 4,
       name: "Porfolio",
       link: "#portfolio",
     },
     {
-      id: 4,
+      id: 5,
+      name: "Testimonials",
+      link: "#Testimonials",
+    },
+
+    {
+      id: 6,
       name: "Contact",
       link: "#contact",
     },

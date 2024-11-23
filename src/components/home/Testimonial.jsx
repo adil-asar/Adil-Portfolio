@@ -3,7 +3,7 @@ import Profile_1 from "../../assets/imran.jfif"
 import Profile_2 from "../../assets/waleed.jfif" 
 const Testimonial = () => {
   return (
-    <div className="w-full  mt-14 ">
+    <div id="Testimonials" className="w-full  pt-32   ">
       <h1 className="md:text-4xl text-2xl font-semibold md:text-left text-center text-[#eb3b5a]">
         Testimonials
       </h1>

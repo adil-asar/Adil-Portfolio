@@ -35,13 +35,12 @@ const Funfacts = () => {
     
 
   return (
-    <div className="w-full   mt-14    ">
-    <h1 className="md:text-4xl text-2xl font-semibold md:text-left text-center text-[#eb3b5a]">
+    <div className="w-full   mt-7    ">
+    <div className=" px-2 w-fit h-8 border-l-4  flex justify-center border-[#eb3b5a] items-center">
+    <h1 className="text-2xl font-semibold md:text-left text-center text-[#343a40]">
       Fun Facts
     </h1>
-    <div className="px-2 py-0.5 text-white text-sm w-fit bg-[#eb3b5a] md:mx-0 mx-auto ">
-      Awards, Projects, Coffees, Hours
-    </div>
+  </div>
 
     <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 mt-10 gap-5">
     {
